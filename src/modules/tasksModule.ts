@@ -11,12 +11,12 @@ const initialState: State = {
     tasks: [
         {
             id: 2,
-            title: '次のTodo',
+            title: '次にやるべきこと',
             done: false
         },{
             id: 1,
-            title: '最初のTodo',
-            done: true
+            title: '最初にやるべきこと',
+            done: false
         }
     ]
 }

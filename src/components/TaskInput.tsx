@@ -24,7 +24,7 @@ const TaskInput: React.FC = () => {
                     className="input"
                     value={inputTitle}
                     onChange={handleInputChange}
-                    placeholder="TODOを入力してください。"
+                    placeholder="作業を入力してください。"
                 />
                 <button onClick={handleSubmit} className="btn is-primary">追加</button>
             </div>
