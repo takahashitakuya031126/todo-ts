@@ -7,16 +7,28 @@ type State = {
 }
 
 const initialState: State = {
-    count: 2,
+    count: 5,
     tasks: [
         {
+            id: 5,
+            title: 'カエルの楽園2020',
+            done: false
+        },{
+            id: 4,
+            title: 'ホワイトラビット',
+            done: true
+        },{
+            id: 3,
+            title: '女帝 小池百合子',
+            done: false
+        },{
             id: 2,
-            title: '次にやるべきこと',
+            title: '死という最後の未来',
             done: false
         },{
             id: 1,
-            title: '最初にやるべきこと',
-            done: false
+            title: '本当の自由を手に入れる　お金の大学',
+            done: true
         }
     ]
 }

@@ -9,7 +9,7 @@ const TaskList: React.FC = () => {
     return (
         <div className="inner">
             {
-                tasks.length <= 0 ? '登録されたTODOはありません。' :
+                tasks.length <= 0 ? '登録された積読本はありません。' :
                 <ul className="task-list">
                 { tasks.map(task => (
                         <TaskItem key={task.id} task={task} />
